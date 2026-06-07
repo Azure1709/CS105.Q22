@@ -52,10 +52,22 @@
   - File báo cáo: [Final Report.pdf]()
 
 ### Thực nghiệm
-  - Demo ứng dụng Web: [Endless Flight Web Deployment](https://Azure1709.github.io/CS105.Q22/)
+  - Demo trực tuyến: [Endless Flight Web Deployment](https://Azure1709.github.io/CS105.Q22/)
+  - Để chạy trên máy cục bộ:
+```bash
+git clone https://github.com/Azure1709/CS105.Q22.git
+cd CS105.Q22
+
+# First time only
+npm install -g http-server
+
+http-server
+```
+
+Sau đó mở trình duyệt và truy cập:
+
+- http://127.0.0.1:8080
+- hoặc http://localhost:8080
   
-  <p align='center'>
-    <img src="image_e5f43e.jpg" alt="Giao diện Khởi đầu Màn hình chờ Game Endless Flight 3D" width="85%">
-  </p>
   
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`Copyright © 2026 - ABHT Team`
